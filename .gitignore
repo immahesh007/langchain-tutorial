@@ -1,0 +1,197 @@
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PyInstaller
+*.manifest
+*.spec
+
+
+# ============================================================
+# Environment & Secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+# API keys / credentials
+*.pem
+*.key
+*.crt
+credentials.json
+secrets.json
+
+
+# ============================================================
+# LangChain / LangGraph / LangSmith
+# ============================================================
+
+# Local LangChain / LangGraph state
+.langgraph/
+.langchain/
+
+# LangSmith local/cache files
+.langsmith/
+
+# Tracing/debug output
+traces/
+*.trace
+langsmith/
+
+
+# ============================================================
+# Ollama / Local LLM files
+# ============================================================
+
+# Don't commit downloaded models or model data
+ollama/
+models/
+*.gguf
+*.gguf.part
+
+
+# ============================================================
+# Jupyter Notebook
+# ============================================================
+
+.ipynb_checkpoints/
+
+# Jupyter runtime
+.jupyter/
+
+
+# ============================================================
+# IDEs / Editors
+# ============================================================
+
+# VS Code
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# Cursor
+.cursor/
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+
+# ============================================================
+# OS generated files
+# ============================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+
+# ============================================================
+# Logs
+# ============================================================
+
+*.log
+logs/
+
+
+# ============================================================
+# Testing / Coverage
+# ============================================================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.pyre/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+
+
+# ============================================================
+# Ruff / Linters
+# ============================================================
+
+.ruff_cache/
+
+
+# ============================================================
+# Temporary files
+# ============================================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.orig
+
+tmp/
+temp/
+
+
+# ============================================================
+# Data / Generated Files
+# ============================================================
+
+# Uncomment if your application generates local data
+# data/
+# datasets/
+# outputs/
+
+# SQLite / local databases
+*.db
+*.sqlite
+*.sqlite3
+
+
+# ============================================================
+# Docker
+# ============================================================
+
+# Local Docker environment files
+docker-compose.override.yml
+
+
+# ============================================================
+# Application generated files
+# ============================================================
+
+uploads/
+downloads/
+cache/
+.cache/
